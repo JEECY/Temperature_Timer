@@ -1,0 +1,460 @@
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE LQ12864
+OBJECT MODULE PLACED IN .\Output\LQ12864.obj
+COMPILER INVOKED BY: E:\ARM\C51\BIN\C51.EXE User\LQ12864.c COMPACT BROWSE DEBUG OBJECTEXTEND PRINT(.\Listing\LQ12864.lst
+                    -) TABS(2) OBJECT(.\Output\LQ12864.obj)
+
+line level    source
+
+   1          #include "LQ12864.h"
+   2          #include "codedata.h"
+   3          uchar time[7];
+   4          uchar WD1,WD2,WD3;
+   5          uchar shuzu[3];
+   6          uchar code table[60]=                   //秒表
+   7          {
+   8          0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x09,
+   9          0x0a,0x0b,0x0c,0x0d,0x0e,0x0f,0x10,0x11,0x12,0x13,
+  10          0x14,0x15,0x16,0x17,0x18,0x19,0x1a,0x1b,0x1c,0x1d,
+  11          0x1e,0x1f,0x20,0x21,0x22,0x23,0x24,0x25,0x26,0x27,
+  12          0x28,0x29,0x2a,0x2b,0x2c,0x2d,0x2e,0x2f,0x30,0x31,
+  13          0x32,0x33,0x34,0x35,0x36,0x37,0x38,0x39,0x3a,0x3b
+  14          };
+  15          //--------------------
+  16          //     时间
+  17          //--------------------
+  18          struct time
+  19          {
+  20            uchar year1;
+  21            uchar year2;
+  22            uchar month1;
+  23            uchar month2;
+  24            uchar day1;
+  25            uchar day2;
+  26            uchar hour1;
+  27            uchar hour2;
+  28            uchar min1;
+  29            uchar min2;
+  30            uchar sec1;
+  31            uchar sec2;
+  32          }Tim;
+  33            /**********************************************
+  34            //IIC Start
+  35            **********************************************/
+  36            void IIC_Start()
+  37            {
+  38   1           SCL = high;    
+  39   1           SDA = high;
+  40   1           SDA = low;
+  41   1           SCL = low;
+  42   1        }
+  43            
+  44            /**********************************************
+  45            //IIC Stop
+  46            **********************************************/
+  47            void IIC_Stop()
+  48            {
+  49   1           SCL = low;
+  50   1           SDA = low;
+  51   1           SCL = high;
+  52   1           SDA = high;
+  53   1        }
+  54            
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 2   
+
+  55            /**********************************************
+  56            // 通过I2C总线写一个字节
+  57            **********************************************/
+  58            void Write_IIC_Byte(unsigned char IIC_Byte)
+  59            {
+  60   1          unsigned char i;
+  61   1          for(i=0;i<8;i++)
+  62   1          {
+  63   2            if(IIC_Byte & 0x80)
+  64   2              SDA=high;   //（释放总线）准备传送数据
+  65   2            else
+  66   2              SDA=low;
+  67   2            SCL=high;     //释放总线，数据传送
+  68   2            SCL=low;      //等待
+  69   2            IIC_Byte<<=1;
+  70   2          }
+  71   1          SDA=1;
+  72   1          SCL=1;
+  73   1          SCL=0;
+  74   1        }
+  75            
+  76            /*********************OLED写数据************************************/ 
+  77            void OLED_WrDat(unsigned char IIC_Data)
+  78            {
+  79   1          IIC_Start();
+  80   1          Write_IIC_Byte(0x78);
+  81   1          Write_IIC_Byte(0x40);     //开启写模式
+  82   1          Write_IIC_Byte(IIC_Data);
+  83   1          IIC_Stop();
+  84   1        }
+  85            /*********************OLED写命令************************************/
+  86            void OLED_WrCmd(unsigned char IIC_Command)
+  87            {
+  88   1          IIC_Start();
+  89   1          Write_IIC_Byte(0x78);            //Slave address,SA0=0
+  90   1          Write_IIC_Byte(0x00);     //write command
+  91   1          Write_IIC_Byte(IIC_Command);
+  92   1          IIC_Stop();
+  93   1        }
+  94            /*********************OLED 设置坐标************************************/
+  95            void OLED_Set_Pos(unsigned char x, unsigned char y) 
+  96            { 
+  97   1          OLED_WrCmd(0xb0+y);     
+  98   1          OLED_WrCmd(((x&0xf0)>>4)|0x10);
+  99   1          OLED_WrCmd((x&0x0f)|0x01);
+ 100   1        } 
+ 101            /*********************OLED全屏************************************/
+ 102            void OLED_Fill(unsigned char bmp_dat) 
+ 103            {
+ 104   1          unsigned char y,x;
+ 105   1          for(y=0;y<8;y++)
+ 106   1          {
+ 107   2            OLED_WrCmd(0xb0+y);   //水平方向
+ 108   2            OLED_WrCmd(0x01);   //垂直方向
+ 109   2            OLED_WrCmd(0x10);
+ 110   2            for(x=0;x<X_WIDTH;x++)
+ 111   2            OLED_WrDat(bmp_dat);
+ 112   2          }
+ 113   1        }
+ 114            /*********************OLED复位************************************/
+ 115            void OLED_CLS(unsigned char y)     //y可以选择哪一层不显示
+ 116            {
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 3   
+
+ 117   1          unsigned char x;
+ 118   1          for(;y<8;y++)
+ 119   1          {
+ 120   2            OLED_WrCmd(0xb0+y);
+ 121   2            OLED_WrCmd(0x01);
+ 122   2            OLED_WrCmd(0x10);
+ 123   2            for(x=0;x<X_WIDTH;x++)
+ 124   2            OLED_WrDat(0);
+ 125   2          }
+ 126   1        }
+ 127            /*********************OLED初始化************************************/
+ 128            void OLED_Init(void)
+ 129            {
+ 130   1          delay(500);//初始化之前的延时很重要！
+ 131   1          OLED_WrCmd(0xae);//--turn off oled panel
+ 132   1          OLED_WrCmd(0x00);//---set low column address
+ 133   1          OLED_WrCmd(0x10);//---set high column address
+ 134   1          OLED_WrCmd(0x40);//--set start line address  Set Mapping RAM Display Start Line (0x00~0x3F)
+ 135   1          OLED_WrCmd(0x81);//--set contrast control register
+ 136   1          OLED_WrCmd(Brightness); // Set SEG Output Current Brightness
+ 137   1          OLED_WrCmd(0xa1);//--Set SEG/Column Mapping     0xa0左右反置 0xa1正常
+ 138   1          OLED_WrCmd(0xc8);//Set COM/Row Scan Direction   0xc0上下反置 0xc8正常
+ 139   1          OLED_WrCmd(0xa6);//--set normal display
+ 140   1          OLED_WrCmd(0xa8);//--set multiplex ratio(1 to 64)
+ 141   1          OLED_WrCmd(0x3f);//--1/64 duty
+ 142   1          OLED_WrCmd(0xd3);//-set display offset  Shift Mapping RAM Counter (0x00~0x3F)
+ 143   1          OLED_WrCmd(0x00);//-not offset
+ 144   1          OLED_WrCmd(0xd5);//--set display clock divide ratio/oscillator frequency
+ 145   1          OLED_WrCmd(0x80);//--set divide ratio, Set Clock as 100 Frames/Sec
+ 146   1          OLED_WrCmd(0xd9);//--set pre-charge period
+ 147   1          OLED_WrCmd(0xf1);//Set Pre-Charge as 15 Clocks & Discharge as 1 Clock
+ 148   1          OLED_WrCmd(0xda);//--set com pins hardware configuration
+ 149   1          OLED_WrCmd(0x12);
+ 150   1          OLED_WrCmd(0xdb);//--set vcomh
+ 151   1          OLED_WrCmd(0x40);//Set VCOM Deselect Level
+ 152   1          OLED_WrCmd(0x20);//-Set Page Addressing Mode (0x00/0x01/0x02)
+ 153   1          OLED_WrCmd(0x02);//
+ 154   1          OLED_WrCmd(0x8d);//--set Charge Pump enable/disable
+ 155   1          OLED_WrCmd(0x14);//--set(0x10) disable
+ 156   1          OLED_WrCmd(0xa4);// Disable Entire Display On (0xa4/0xa5)
+ 157   1          OLED_WrCmd(0xa6);// Disable Inverse Display On (0xa6/a7) 
+ 158   1          OLED_WrCmd(0xaf);//--turn on oled panel
+ 159   1          OLED_Fill(0x00); //初始清屏
+ 160   1          OLED_Set_Pos(0,0);
+ 161   1        } 
+ 162            /***************功能描述：显示6*8一组标准ASCII字符串  显示的坐标（x,y），y为页范围0～7****************/
+ 163            void OLED_P6x8Str(unsigned char x, y,unsigned char ch[])
+ 164            {
+ 165   1          unsigned char c=0,i=0,j=0;
+ 166   1          while (ch[j]!='\0')
+ 167   1          {
+ 168   2            c =ch[j]-32;  //(减32是英文大小写转换的意思),从空格键开始
+ 169   2            if(x>126){x=0;y++;}    //换行
+ 170   2            OLED_Set_Pos(x,y);
+ 171   2            for(i=0;i<6;i++)   //六个元素组成一个字符
+ 172   2            OLED_WrDat(F6x8[c][i]);
+ 173   2            x+=6;
+ 174   2            j++;
+ 175   2          }
+ 176   1        }
+ 177            /*******************功能描述：显示8*16一组标准ASCII字符串  显示的坐标（x,y），y为页范围0～7**************
+             -**/
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 4   
+
+ 178            void OLED_P8x16Str(unsigned char x, y,unsigned char ch[])
+ 179            {
+ 180   1          unsigned char c=0,i=0,j=0;
+ 181   1          while (ch[j]!='\0')
+ 182   1          {
+ 183   2            c =ch[j]-32;
+ 184   2            if(x>120){x=0;y++;}
+ 185   2            OLED_Set_Pos(x,y);
+ 186   2            for(i=0;i<8;i++)
+ 187   2            OLED_WrDat(F8X16[c*16+i]);               //c*16为选择第几行
+ 188   2            OLED_Set_Pos(x,y+1);
+ 189   2            for(i=0;i<8;i++)
+ 190   2            OLED_WrDat(F8X16[c*16+i+8]);
+ 191   2            x+=8;
+ 192   2            j++;
+ 193   2          }
+ 194   1        }
+ 195            /*****************功能描述：显示16*16点阵  显示的坐标（x,y），y为页范围0～7****************************/
+ 196            void OLED_P16x16Ch(unsigned char x, y, N)
+ 197            {
+ 198   1          unsigned char wm=0;
+ 199   1          unsigned int adder=32*N;
+ 200   1          OLED_Set_Pos(x , y);
+ 201   1          for(wm = 0;wm < 16;wm++)
+ 202   1          {
+ 203   2            OLED_WrDat(F16x16[adder]);
+ 204   2            adder += 1;
+ 205   2          }
+ 206   1          OLED_Set_Pos(x,y + 1);
+ 207   1          for(wm = 0;wm < 16;wm++)
+ 208   1          {
+ 209   2            OLED_WrDat(F16x16[adder]);
+ 210   2            adder += 1;
+ 211   2          }       
+ 212   1        }
+ 213          
+ 214          
+ 215           
+ 216            //*********************************************************************************************
+ 217            //***************************************时间显示（BCD）
+ 218            //*********************************************************************************************
+ 219                
+ 220            void OLED_MFS1(unsigned char x, y,unsigned char ch[],uchar SJ,uchar L)
+ 221            {
+ 222   1          unsigned char i=0,j=0;
+ 223   1          while (ch[j]!='\0')
+ 224   1          {
+ 225   2            if(x>120){x=0;y++;}
+ 226   2            SJ=time[L]%16;               //个位
+ 227   2            OLED_Set_Pos(x,y);
+ 228   2            for(i=0;i<8;i++)
+ 229   2            OLED_WrDat(SZ8X16[SJ*16+i]);              
+ 230   2            OLED_Set_Pos(x,y+1);
+ 231   2            for(i=0;i<8;i++)
+ 232   2            OLED_WrDat(SZ8X16[SJ*16+i+8]);
+ 233   2            x+=8;
+ 234   2            j++;
+ 235   2          }
+ 236   1        }
+ 237            
+ 238            void OLED_MFS2(unsigned char x, y,unsigned char ch[],uchar SJ,uchar L)
+ 239            {
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 5   
+
+ 240   1          unsigned char i=0,j=0;
+ 241   1          while (ch[j]!='\0')
+ 242   1          {
+ 243   2            if(x>120){x=0;y++;} 
+ 244   2            SJ=time[L]/16;             //十位
+ 245   2            OLED_Set_Pos(x,y);
+ 246   2            for(i=0;i<8;i++)
+ 247   2            OLED_WrDat(SZ8X16[SJ*16+i]);             
+ 248   2            OLED_Set_Pos(x,y+1);
+ 249   2            for(i=0;i<8;i++)
+ 250   2            OLED_WrDat(SZ8X16[SJ*16+i+8]);
+ 251   2            x+=8;
+ 252   2            j++;
+ 253   2          }
+ 254   1        }
+ 255            
+ 256            void OLED_RYN1(unsigned char x, y,unsigned char ch[],uchar SJ,uchar L)
+ 257            {
+ 258   1          unsigned char i=0,j=0;
+ 259   1          while (ch[j]!='\0')
+ 260   1          { 
+ 261   2            if(x>126){x=0;y++;}
+ 262   2            SJ=time[L]%16;       //个位
+ 263   2            OLED_Set_Pos(x,y);
+ 264   2            for(i=0;i<6;i++)   //六个元素组成一个字符
+ 265   2            OLED_WrDat(SZ6x8[SJ][i]);
+ 266   2            x+=6;
+ 267   2            j++;
+ 268   2          }
+ 269   1        }
+ 270            void OLED_RYN2(unsigned char x, y,unsigned char ch[],uchar SJ,uchar L)
+ 271            {
+ 272   1          unsigned char i=0,j=0;
+ 273   1          while (ch[j]!='\0')
+ 274   1          {
+ 275   2            if(x>126){x=0;y++;}
+ 276   2            SJ=time[L]/16;       //十位
+ 277   2            OLED_Set_Pos(x,y);
+ 278   2            for(i=0;i<6;i++)   //六个元素组成一个字符
+ 279   2            OLED_WrDat(SZ6x8[SJ][i]);
+ 280   2            x+=6;
+ 281   2            j++;
+ 282   2          }
+ 283   1        }
+ 284            
+ 285            //****************************时钟
+ 286            void xianshi1_DS1302()
+ 287            {
+ 288   1        OLED_MFS2(24,3,"0",Tim.hour2,2);
+ 289   1        OLED_MFS1(32,3,"0",Tim.hour1,2);
+ 290   1        OLED_P16x16Ch(40,3,2);
+ 291   1        OLED_MFS2(56,3,"0",Tim.min2,1);
+ 292   1        OLED_MFS1(64,3,"0",Tim.min1,1);
+ 293   1        OLED_P16x16Ch(72,3,2);
+ 294   1        OLED_MFS2(88,3,"0",Tim.sec2,0);
+ 295   1        OLED_MFS1(96,3,"0",Tim.sec1,0);
+ 296   1        }
+ 297            //*****************************日期
+ 298            void xianshi2_DS1302()
+ 299            {
+ 300   1        OLED_P6x8Str(25,5,"2");
+ 301   1        OLED_P6x8Str(31,5,"0");
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 6   
+
+ 302   1        OLED_RYN2(37,5,"0",Tim.year2,6);
+ 303   1        OLED_RYN1(45,5,"0",Tim.year1,6);
+ 304   1        OLED_P6x8Str(53,5,"-");
+ 305   1        OLED_RYN2(61,5,"0",Tim.month2,4);
+ 306   1        OLED_RYN1(69,5,"0",Tim.month1,4);
+ 307   1        OLED_P6x8Str(77,5,"-");
+ 308   1        OLED_RYN2(85,5,"0",Tim.day2,3);
+ 309   1        OLED_RYN1(93,5,"0",Tim.day1,3);
+ 310   1        }
+ 311          
+ 312            //******************************************************************************************************
+             -**
+ 313            //************显示温度
+ 314            //*******************************************************************************************************
+             -*
+ 315            void OLED_TEM1(unsigned char x, y,unsigned char ch[])   //十位
+ 316            {
+ 317   1          unsigned char c=0,i=0,j=0;
+ 318   1          while (ch[j]!='\0')
+ 319   1          {
+ 320   2            c =ch[j]-32;
+ 321   2            if(x>120){x=0;y++;}
+ 322   2            WD1=shuzu[0]+16;
+ 323   2            OLED_Set_Pos(x,y);
+ 324   2            for(i=0;i<8;i++)
+ 325   2            OLED_WrDat(F8X16[WD1*16+i]);              
+ 326   2            OLED_Set_Pos(x,y+1);
+ 327   2            for(i=0;i<8;i++)
+ 328   2            OLED_WrDat(F8X16[WD1*16+i+8]);
+ 329   2            x+=8;
+ 330   2            j++;
+ 331   2          }
+ 332   1        }
+ 333            
+ 334            
+ 335            void OLED_TEM2(unsigned char x, y,unsigned char ch[])    //个位
+ 336            {
+ 337   1          unsigned char c=0,i=0,j=0;
+ 338   1          while (ch[j]!='\0')
+ 339   1          {
+ 340   2            c =ch[j]-32;
+ 341   2            if(x>120){x=0;y++;}
+ 342   2            WD2=shuzu[1]+16;               //从第十六行开始为数字
+ 343   2            OLED_Set_Pos(x,y);
+ 344   2            for(i=0;i<8;i++)
+ 345   2            OLED_WrDat(F8X16[WD2*16+i]);               
+ 346   2            OLED_Set_Pos(x,y+1);
+ 347   2            for(i=0;i<8;i++)
+ 348   2            OLED_WrDat(F8X16[WD2*16+i+8]);
+ 349   2            x+=8;
+ 350   2            j++;
+ 351   2          }
+ 352   1        }
+ 353            
+ 354            void OLED_TEM3(unsigned char x, y,unsigned char ch[])   // 小数位
+ 355            {
+ 356   1          unsigned char c=0,i=0,j=0;
+ 357   1          while (ch[j]!='\0')
+ 358   1          {
+ 359   2            c =ch[j]-32;
+ 360   2            if(x>120){x=0;y++;}
+ 361   2            WD3=shuzu[2]+16;
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 7   
+
+ 362   2            OLED_Set_Pos(x,y);
+ 363   2            for(i=0;i<8;i++)
+ 364   2            OLED_WrDat(F8X16[WD3*16+i]);              
+ 365   2            OLED_Set_Pos(x,y+1);
+ 366   2            for(i=0;i<8;i++)
+ 367   2            OLED_WrDat(F8X16[WD3*16+i+8]);
+ 368   2            x+=8;
+ 369   2            j++;
+ 370   2          }
+ 371   1        }   
+ 372            
+ 373            void xianshi_DS18B20()
+ 374            {
+ 375   1        OLED_P16x16Ch(46,0,1);   //温度符号
+ 376   1        OLED_P16x16Ch(0,0,14);   //温度计符号
+ 377   1        OLED_TEM1(16,0,"0");
+ 378   1        OLED_TEM2(24,0,"0");
+ 379   1        OLED_P6x8Str(32,1,".");
+ 380   1        OLED_TEM3(38,0,"0");
+ 381   1        }
+ 382          //--------------------
+ 383          //     秒表
+ 384          //--------------------
+ 385          void OLED_MB1(unsigned char x, y,unsigned char ch[],uchar SJ,uchar L)        //十位
+ 386          {
+ 387   1        unsigned char c=0,i=0,j=0;
+ 388   1        while (ch[j]!='\0')
+ 389   1        {
+ 390   2          if(x>120){x=0;y++;}
+ 391   2          SJ=table[L]/10+16;
+ 392   2          OLED_Set_Pos(x,y);
+ 393   2          for(i=0;i<8;i++)
+ 394   2          OLED_WrDat(F8X16[SJ*16+i]);              
+ 395   2          OLED_Set_Pos(x,y+1);
+ 396   2          for(i=0;i<8;i++)
+ 397   2          OLED_WrDat(F8X16[SJ*16+i+8]);
+ 398   2          x+=8;
+ 399   2          j++;
+ 400   2        }
+ 401   1      }
+ 402            
+ 403          void OLED_MB2(unsigned char x, y,unsigned char ch[],uchar SJ,uchar L)        //个位
+ 404          {
+ 405   1        unsigned char c=0,i=0,j=0;
+ 406   1        while (ch[j]!='\0')
+ 407   1        {
+ 408   2          if(x>120){x=0;y++;}
+ 409   2          SJ=(table[L]%10)+16;
+ 410   2          OLED_Set_Pos(x,y);
+ 411   2          for(i=0;i<8;i++)
+ 412   2          OLED_WrDat(F8X16[SJ*16+i]);              
+ 413   2          OLED_Set_Pos(x,y+1);
+ 414   2          for(i=0;i<8;i++)
+ 415   2          OLED_WrDat(F8X16[SJ*16+i+8]);
+ 416   2          x+=8;
+ 417   2          j++;
+ 418   2        }
+ 419   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   2613    ----
+C51 COMPILER V9.00   LQ12864                                                               01/21/2016 00:22:19 PAGE 8   
+
+   CONSTANT SIZE    =   3544    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =     25      98
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

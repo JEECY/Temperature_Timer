@@ -1,0 +1,10 @@
+".\Output\ds1302.obj",
+".\Output\LQ12864.obj",
+".\Output\main.obj",
+".\Output\delay.obj",
+".\Output\ds18b20.obj",
+".\Output\beep.obj",
+".\Output\all.obj",
+".\Output\key.obj" 
+TO ".\Output\Tem+Timer" 
+PRINT(".\Listing\Tem+Timer.m51") RAMSIZE(256) 

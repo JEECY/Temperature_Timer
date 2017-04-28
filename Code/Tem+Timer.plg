@@ -1,0 +1,5354 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\admin\Desktop\作业\制作\温度计电子钟\Code1\Tem+Timer.uvproj
+Project File Date:  01/16/2016
+
+<h2>Output:</h2>
+compiling main.c...
+User\main.c(2): warning C318: can't open file 'all.h'
+USER\MAIN.C(6): warning C206: 'Init_1302': missing function-prototype
+USER\MAIN.C(7): warning C206: 'OLED_Init': missing function-prototype
+USER\MAIN.C(10): warning C206: 'getting': missing function-prototype
+USER\MAIN.C(11): warning C206: 'xianshi1_DS1302': missing function-prototype
+USER\MAIN.C(12): warning C206: 'xianshi2_DS1302': missing function-prototype
+User\main.c - 0 Error(s), 6 Warning(s).
+compiling main.c...
+User\main.c(2): warning C318: can't open file 'all.h'
+USER\MAIN.C(6): warning C206: 'Init_1302': missing function-prototype
+USER\MAIN.C(7): warning C206: 'OLED_Init': missing function-prototype
+USER\MAIN.C(10): warning C206: 'getting': missing function-prototype
+USER\MAIN.C(11): warning C206: 'xianshi1_DS1302': missing function-prototype
+USER\MAIN.C(12): warning C206: 'xianshi2_DS1302': missing function-prototype
+User\main.c - 0 Error(s), 6 Warning(s).
+compiling main.c...
+USER\TYPEDEF.H(33): error C141: syntax error near 'ucahr'
+USER\TYPEDEF.H(33): error C129: missing ';' before 'tem3'
+USER\LQ12864.H(38): warning C315: unknown #directive 'denif'
+User\main.c(14): warning C316: unterminated conditionals
+User\main.c - 2 Error(s), 2 Warning(s).
+compiling main.c...
+USER\LQ12864.H(38): warning C315: unknown #directive 'denif'
+User\main.c(14): warning C316: unterminated conditionals
+User\main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+User\main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+USER\DS1302.C(72): error C183: unmodifiable lvalue
+compiling LQ12864.c...
+USER\LQ12864.C(141): error C202: 'F6x8': undefined identifier
+USER\LQ12864.C(156): error C202: 'F8X16': undefined identifier
+USER\LQ12864.C(159): error C202: 'F8X16': undefined identifier
+USER\LQ12864.C(172): error C202: 'F16x16': undefined identifier
+USER\LQ12864.C(178): error C202: 'F16x16': undefined identifier
+USER\LQ12864.C(198): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(201): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(216): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(219): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(234): error C202: 'SZ6x8': undefined identifier
+USER\LQ12864.C(248): error C202: 'SZ6x8': undefined identifier
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+USER\DS1302.C(72): error C183: unmodifiable lvalue
+compiling LQ12864.c...
+USER\LQ12864.C(141): error C202: 'F6x8': undefined identifier
+USER\LQ12864.C(156): error C202: 'F8X16': undefined identifier
+USER\LQ12864.C(159): error C202: 'F8X16': undefined identifier
+USER\LQ12864.C(172): error C202: 'F16x16': undefined identifier
+USER\LQ12864.C(178): error C202: 'F16x16': undefined identifier
+USER\LQ12864.C(198): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(201): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(216): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(219): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(234): error C202: 'SZ6x8': undefined identifier
+USER\LQ12864.C(248): error C202: 'SZ6x8': undefined identifier
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+USER\DS1302.C(72): error C183: unmodifiable lvalue
+compiling LQ12864.c...
+USER\LQ12864.C(141): error C202: 'F6x8': undefined identifier
+USER\LQ12864.C(156): error C202: 'F8X16': undefined identifier
+USER\LQ12864.C(159): error C202: 'F8X16': undefined identifier
+USER\LQ12864.C(172): error C202: 'F16x16': undefined identifier
+USER\LQ12864.C(178): error C202: 'F16x16': undefined identifier
+USER\LQ12864.C(198): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(201): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(216): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(219): error C202: 'SZ8X16': undefined identifier
+USER\LQ12864.C(234): error C202: 'SZ6x8': undefined identifier
+USER\LQ12864.C(248): error C202: 'SZ6x8': undefined identifier
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+USER\DS1302.C(72): error C183: unmodifiable lvalue
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+USER\DS1302.C(72): error C183: unmodifiable lvalue
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+USER\LQ12864.H(17): error C231: 'time': redefinition
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=83.0 xdata=0 code=8922
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C141: syntax error near 'Tim'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(258): error C141: syntax error near 'Tim'
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=83.0 xdata=0 code=8922
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(99): warning C206: 'delay': missing function-prototype
+USER\LQ12864.C(99): error C267: 'delay': requires ANSI-style prototype
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=83.0 xdata=0 code=8922
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=74 code=9135
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9135
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_INIT?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9132
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_1302?DS1302
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_INIT?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9129
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETTING?DS1302
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9132
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETTING?DS1302
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?XIANSHI1_DS1302?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?XIANSHI2_DS1302?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=104 code=9126
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9135
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9149
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=60 code=9149
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(196): error C202: 'time': undefined identifier
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(246): error C202: 'time': undefined identifier
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(196): error C202: 'time': undefined identifier
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(246): error C202: 'time': undefined identifier
+compiling main.c...
+USER\ALL.H(4): error C129: missing ';' before 'time'
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(196): error C202: 'time': undefined identifier
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(246): error C202: 'time': undefined identifier
+compiling main.c...
+USER\ALL.H(4): error C129: missing ';' before 'time'
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(196): error C202: 'time': undefined identifier
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(246): error C202: 'time': undefined identifier
+compiling main.c...
+USER\ALL.H(4): error C129: missing ';' before 'time'
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(196): error C202: 'time': undefined identifier
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(246): error C202: 'time': undefined identifier
+compiling main.c...
+USER\ALL.H(4): error C129: missing ';' before 'time'
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(196): error C202: 'time': undefined identifier
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(246): error C202: 'time': undefined identifier
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9135
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9135
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9135
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=5659
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=60 code=5673
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.H(31): error C141: syntax error near 'SJ', expected ')'
+USER\LQ12864.H(32): error C141: syntax error near 'SJ', expected ')'
+USER\LQ12864.H(33): error C141: syntax error near 'SJ', expected ')'
+USER\LQ12864.H(34): error C141: syntax error near 'SJ', expected ')'
+USER\LQ12864.C(195): error C236: '_OLED_MFS1': different length of parameter lists
+USER\LQ12864.C(213): error C236: '_OLED_MFS2': different length of parameter lists
+USER\LQ12864.C(231): error C236: '_OLED_RYN1': different length of parameter lists
+USER\LQ12864.C(245): error C236: '_OLED_RYN2': different length of parameter lists
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\CODEDATA.H(5): error C129: missing ';' before 'code'
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(195): error C202: 'time': undefined identifier
+USER\LQ12864.C(213): error C202: 'time': undefined identifier
+USER\LQ12864.C(231): error C202: 'time': undefined identifier
+USER\LQ12864.C(245): error C202: 'time': undefined identifier
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=67 code=9135
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=74 code=9135
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22C5H
+Program Size: data=9.0 xdata=67 code=8997
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=74 code=9135
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22C5H
+Program Size: data=9.0 xdata=67 code=8997
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22C5H
+Program Size: data=9.0 xdata=67 code=8997
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C200: left side of '.' requires struct/union
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C200: left side of '.' requires struct/union
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+USER\LQ12864.C(257): error C200: left side of '.' requires struct/union
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(258): error C200: left side of '.' requires struct/union
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22C5H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E12H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E2BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E49H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E62H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E80H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E97H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1B64H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1B79H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1B97H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1BACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1BCAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIM
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1BE3H
+Program Size: data=9.0 xdata=31 code=8997
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22C5H
+Program Size: data=9.0 xdata=67 code=8997
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(85): warning C235: parameter 1: different types
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22C5H
+Program Size: data=9.0 xdata=55 code=8997
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22BDH
+Program Size: data=9.0 xdata=55 code=8989
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22BDH
+Program Size: data=9.0 xdata=55 code=8989
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22BDH
+Program Size: data=9.0 xdata=55 code=8989
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 22BDH
+Program Size: data=9.0 xdata=55 code=8989
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=8989
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9136
+Target not created
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9136
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9104
+Target not created
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9136
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=8989
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9136
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9136
+Target not created
+Build target 'Target 1'
+compiling main.c...
+USER\ALL.H(3): error C129: missing ';' before 'time'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WRITE_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  READ_ADDR
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=62 code=9136
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIM1
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=55 code=9113
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=43 code=9113
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+Program Size: data=9.0 xdata=43 code=9081
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=43 code=5605
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=50 code=5605
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 110AH
+Program Size: data=9.0 xdata=36 code=5435
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=50 code=1960
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(276): error C200: left side of '.' requires struct/union
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(214): error C202: 'time': undefined identifier
+USER\LQ12864.C(232): error C202: 'time': undefined identifier
+USER\LQ12864.C(250): error C202: 'time': undefined identifier
+USER\LQ12864.C(264): error C202: 'time': undefined identifier
+compiling main.c...
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  .\Output\ds1302.obj (DS1302)
+    ADDRESS: 0742H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=43 code=1960
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=50 code=1960
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 1E9EH
+Program Size: data=9.0 xdata=36 code=8911
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0948H
+Program Size: data=9.0 xdata=36 code=3445
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(300): error C249: 'PDATA': SEGMENT TOO LARGE
+compiling main.c...
+USER\MAIN.C(14): error C249: 'PDATA': SEGMENT TOO LARGE
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  F16X16
+    MODULE:  .\Output\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0948H
+Program Size: data=9.0 xdata=36 code=3445
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0640H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1960
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0636H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ABH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1955
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 27 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0636H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 063BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0370H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0467H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F6X8
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 046DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 011FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0125H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 014EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0154H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 058BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  F16X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 05ABH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 01DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0201H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0207H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 0284H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 028AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SZ8X16
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 02B7H
+Program Size: data=9.0 xdata=36 code=1955
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 27 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 110AH
+Program Size: data=9.0 xdata=36 code=5435
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY
+    MODULE:  .\Output\LQ12864.obj (LQ12864)
+    ADDRESS: 110AH
+Program Size: data=9.0 xdata=36 code=5435
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=36 code=5467
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling LQ12864.c...
+compiling main.c...
+compiling ds18b20.c...
+USER\DS18B20.C(8): warning C206: '_nop_': missing function-prototype
+USER\DS18B20.C(8): error C264: intrinsic '_nop_': declaration/activation error
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1933H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1941H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194AH
+Program Size: data=9.0 xdata=50 code=6856
+Target not created
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1933H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1941H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194AH
+Program Size: data=9.0 xdata=50 code=6856
+Target not created
+compiling ds18b20.c...
+User\ds18b20.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1933H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1941H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194AH
+Program Size: data=9.0 xdata=50 code=6856
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 172EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 173EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1758H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 176EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1929H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1934H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1942H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1945H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194BH
+Program Size: data=9.0 xdata=42 code=6857
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 172EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 173EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1758H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 176EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1929H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1934H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1942H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1945H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194BH
+Program Size: data=9.0 xdata=42 code=6857
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+USER\LQ12864.C(319): error C202: 'WD1': undefined identifier
+USER\LQ12864.C(336): error C202: 'WD2': undefined identifier
+USER\LQ12864.C(358): error C202: 'WD3': undefined identifier
+compiling main.c...
+USER\DS18B20.H(7): warning C231: 'Tem': redefinition
+compiling delay.c...
+compiling ds18b20.c...
+USER\DS18B20.H(7): warning C231: 'Tem': redefinition
+USER\DS18B20.C(76): error C213: left side of asn-op not an lvalue
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+USER\DS18B20.H(7): warning C231: 'Tem': redefinition
+compiling delay.c...
+compiling ds18b20.c...
+USER\DS18B20.H(7): warning C231: 'Tem': redefinition
+USER\DS18B20.C(76): error C213: left side of asn-op not an lvalue
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 172EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 173EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1758H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 176EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1929H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1934H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1942H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1945H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194BH
+Program Size: data=9.0 xdata=42 code=6857
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM1
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 172EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM2
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 173EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1758H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 176EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEM
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1929H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1934H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1942H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  XS
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 1945H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 194BH
+Program Size: data=9.0 xdata=42 code=6857
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD4
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 19BFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD5
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 19CDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  WD6
+    MODULE:  .\Output\ds18b20.obj (DS18B20)
+    ADDRESS: 19D6H
+Program Size: data=9.0 xdata=46 code=6997
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=49 code=7006
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+Program Size: data=9.0 xdata=49 code=7006
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 2 Warning(s).
+compiling beep.c...
+USER\BEEP.C(11): warning C206: 'delay': missing function-prototype
+USER\BEEP.C(11): error C267: 'delay': requires ANSI-style prototype
+User\beep.c - 1 Error(s), 1 Warning(s).
+compiling beep.c...
+User\beep.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD6
+    MODULE:  .\Output\beep.obj (BEEP)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD5
+    MODULE:  .\Output\beep.obj (BEEP)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD4
+    MODULE:  .\Output\beep.obj (BEEP)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BJ_DS18B20?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BS?BEEP
+Program Size: data=9.0 xdata=53 code=7092
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+compiling beep.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD6
+    MODULE:  .\Output\beep.obj (BEEP)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD5
+    MODULE:  .\Output\beep.obj (BEEP)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD4
+    MODULE:  .\Output\beep.obj (BEEP)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BJ_DS18B20?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BS?BEEP
+Program Size: data=9.0 xdata=53 code=7092
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+compiling beep.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD6
+    MODULE:  .\Output\beep.obj (BEEP)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD5
+    MODULE:  .\Output\beep.obj (BEEP)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  WD4
+    MODULE:  .\Output\beep.obj (BEEP)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BJ_DS18B20?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BS?BEEP
+Program Size: data=9.0 xdata=53 code=7092
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+compiling beep.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BJ_DS18B20?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BS?BEEP
+Program Size: data=9.0 xdata=50 code=7083
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+compiling LQ12864.c...
+compiling main.c...
+compiling delay.c...
+compiling ds18b20.c...
+compiling beep.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_CLS?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_P8X16STR?LQ12864
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BJ_DS18B20?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BS?BEEP
+Program Size: data=9.0 xdata=50 code=7083
+creating hex file from ".\Output\Tem+Timer"...
+".\Output\Tem+Timer" - 0 Error(s), 4 Warning(s).

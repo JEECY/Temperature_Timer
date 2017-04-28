@@ -1,0 +1,90 @@
+C51 COMPILER V9.00   ALL                                                                   01/21/2016 00:22:21 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE ALL
+OBJECT MODULE PLACED IN .\Output\all.obj
+COMPILER INVOKED BY: E:\ARM\C51\BIN\C51.EXE User\all.c COMPACT BROWSE DEBUG OBJECTEXTEND PRINT(.\Listing\all.lst) TABS(2
+                    -) OBJECT(.\Output\all.obj)
+
+line level    source
+
+   1          #include "all.h"
+   2          void ping0()
+   3          {
+   4   1              uchar i;
+   5   1          for(i=0;i<8;i++)     //按键提示
+   6   1          {
+   7   2          OLED_P6x8Str(24,7,"Press");
+   8   2          OLED_P6x8Str(54,7," ");
+   9   2          OLED_P6x8Str(60,7,"Any");
+  10   2          OLED_P6x8Str(78,7," ");
+  11   2          OLED_P6x8Str(84,7,"Keys");
+  12   2          delay(500);
+  13   2          OLED_CLS(7);
+  14   2          }
+  15   1      }
+  16          void ping1()                //主菜单
+  17          {
+  18   1          OLED_P8x16Str(20,0,"1");     //“1.时间设置”
+  19   1          OLED_P8x16Str(28,0,".");
+  20   1          OLED_P16x16Ch(36,0,5);
+  21   1          OLED_P16x16Ch(52,0,6);
+  22   1          OLED_P16x16Ch(68,0,18);
+  23   1          OLED_P16x16Ch(84,0,19);
+  24   1          
+  25   1          OLED_P8x16Str(20,3,"2");     // "2.日期调整"
+  26   1          OLED_P8x16Str(28,3,".");
+  27   1          OLED_P16x16Ch(36,3,9);
+  28   1          OLED_P16x16Ch(52,3,10);
+  29   1          OLED_P16x16Ch(68,3,7);
+  30   1          OLED_P16x16Ch(84,3,8);
+  31   1      
+  32   1          OLED_P8x16Str(20,6,"3");     // "3.温度调整"
+  33   1          OLED_P8x16Str(28,6,".");
+  34   1          OLED_P16x16Ch(36,6,16);
+  35   1          OLED_P16x16Ch(52,6,17);
+  36   1          OLED_P16x16Ch(68,6,7);
+  37   1          OLED_P16x16Ch(84,6,8);
+  38   1      }
+  39          void ping2()
+  40          {
+  41   1          OLED_P8x16Str(20,0,"1");     //“1.时间调整”
+  42   1          OLED_P8x16Str(28,0,".");
+  43   1          OLED_P16x16Ch(36,0,5);
+  44   1          OLED_P16x16Ch(52,0,6);
+  45   1          OLED_P16x16Ch(68,0,7);
+  46   1          OLED_P16x16Ch(84,0,8);
+  47   1      
+  48   1          OLED_P8x16Str(20,2,"2");     //“2.整点报时”
+  49   1          OLED_P8x16Str(28,2,".");
+  50   1          OLED_P16x16Ch(36,2,8);
+  51   1          OLED_P16x16Ch(52,2,20);
+  52   1          OLED_P16x16Ch(68,2,21);
+  53   1          OLED_P16x16Ch(84,2,5);
+  54   1      
+C51 COMPILER V9.00   ALL                                                                   01/21/2016 00:22:21 PAGE 2   
+
+  55   1          OLED_P8x16Str(20,4,"3");     //“3.闹钟”
+  56   1          OLED_P8x16Str(28,4,".");
+  57   1          OLED_P16x16Ch(36,4,22);
+  58   1          OLED_P16x16Ch(52,4,23);
+  59   1      
+  60   1          OLED_P8x16Str(20,6,"4");     //“4.秒表”
+  61   1          OLED_P8x16Str(28,6,".");
+  62   1          OLED_P16x16Ch(36,6,24);
+  63   1          OLED_P16x16Ch(52,6,25);
+  64   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    613    ----
+   CONSTANT SIZE    =     27    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----       1
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
